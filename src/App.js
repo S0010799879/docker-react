@@ -11,7 +11,7 @@ class App extends Component {
           <h2>Welcome antom to React</h2>
         </div>
         <p className="App-intro">
-          To get Anton lütte  cnaged on feature  started, edit <code>src/App.js</code> and save to reload.
+          To get Anton lütte  Change 1 on  feature  started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
