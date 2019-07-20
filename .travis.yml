@@ -9,16 +9,4 @@ before_install:
 script:
   - docker run -e CI=true pi/react npm run test -- --coverage
 
-deploy:
-  provider:elasticbeanstalk
-  region:"eu-central-1"
-  app:"Docker-react"
-  env:"DockerReact-env"
-  bucket_path:"Docker-react"
-  bucket_name:"elasticbeanstalk-eu-central-1-407283458562"
-on:
-  branch:master
 
-   access_key_id:$AWS_ACCESS_KEY
-   secret_access_key:
-     secure: "$ACCESS_SECRET_KEY"
