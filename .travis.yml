@@ -10,3 +10,5 @@ script:
   - docker run -e CI=true pi/react npm run test -- --coverage
 
 
+deploy:
+  provider:elasticbeanstalk
