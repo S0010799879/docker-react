@@ -17,7 +17,8 @@ deploy:
 
   bucket_path: "DocReact"
   bucket_name: "elasticbeanstalk-eu-central-1-407283458562"
-
+  on:
+     branch: master
   access_key_id: 
      secure: "$AWS_ACCESS_KEY"
   secret_access_key:
